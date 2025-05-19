@@ -56,6 +56,7 @@ modules:
       - pubspec-sources.json
       - type: git
         url: https://github.com/BrisklyDev/brisk.git
-        commit: a429d809d5dbc8d6e2bd80644b12a8086a498e46
+        tag: v2.2.4
+        commit: 99eabc3b539c603da440167d2e01db4584202593
     modules:
       - flutter-sdk-3.29.3.json
