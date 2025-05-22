@@ -12,6 +12,7 @@ finish-args:
   - --share=ipc
   - --device=dri
   - --filesystem=xdg-download
+  - --filesystem=~/.config/autostart:create
   - --talk-name=org.freedesktop.Notifications
   - --talk-name=org.kde.StatusNotifierWatcher
 
@@ -55,9 +56,10 @@ modules:
     sources:
       - type: git
         url: https://github.com/BrisklyDev/brisk.git
+        tag: v2.2.5
         branch: main
-        commit: a429d809d5dbc8d6e2bd80644b12a8086a498e46
+        commit: a50f57f34f72d84bd7a060767d47947a32b9c0ed
       - type: git
         url: https://github.com/flutter/flutter.git
-        tag: 3.29.3
+        tag: 3.32.0
         dest: flutter
