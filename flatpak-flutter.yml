@@ -52,7 +52,7 @@ modules:
   - type: git
     url: https://github.com/BrisklyDev/brisk.git
     tag: v2.2.5-flatpak
-    commit: dbbea61eefbb2bd79291ab077e51875edfc7d5f5
+    commit: 1e2b4b8ac57f07d1867f6dc43224fc4713da8023
   - type: git
     url: https://github.com/flutter/flutter.git
     tag: 3.32.0
