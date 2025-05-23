@@ -982,20 +982,6 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/launch_at_startup-0.5.1.tar.gz",
-        "sha256": "7db33398b76ec0ed9e27f9f4640553e239977437564046625e215be89c91f084",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/launch_at_startup-0.5.1"
-    },
-    {
-        "type": "inline",
-        "contents": "7db33398b76ec0ed9e27f9f4640553e239977437564046625e215be89c91f084",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "launch_at_startup-0.5.1.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
         "url": "https://pub.dev/api/archives/leak_tracker-10.0.9.tar.gz",
         "sha256": "6bb818ecbdffe216e81182c2f0714a2e62b593f4a4f13098713ff1685dfb6ab0",
         "strip-components": 0,
@@ -2153,6 +2139,20 @@
         "contents": "50d5dcd6bec90b4a5ed588b1822b1aad21b39fc96da843e61c734b3caccfd2fc",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "windows_single_instance-1.0.1.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/xdg_desktop_portal-0.1.13.tar.gz",
+        "sha256": "10d56d2212bfa33a676d209b312a82fe5862fed5a91d2cfcb39143da75d084c1",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/xdg_desktop_portal-0.1.13"
+    },
+    {
+        "type": "inline",
+        "contents": "10d56d2212bfa33a676d209b312a82fe5862fed5a91d2cfcb39143da75d084c1",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "xdg_desktop_portal-0.1.13.sha256"
     },
     {
         "type": "archive",
