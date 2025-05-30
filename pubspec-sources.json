@@ -30,16 +30,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/archive-4.0.5.tar.gz",
-        "sha256": "7dcbd0f87fe5f61cb28da39a1a8b70dbc106e2fe0516f7836eb7bb2948481a12",
+        "url": "https://pub.dev/api/archives/archive-3.6.1.tar.gz",
+        "sha256": "cb6a278ef2dbb298455e1a713bda08524a175630ec643a242c399c932a0a1f7d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/archive-4.0.5"
+        "dest": ".pub-cache/hosted/pub.dev/archive-3.6.1"
     },
     {
         "type": "inline",
-        "contents": "7dcbd0f87fe5f61cb28da39a1a8b70dbc106e2fe0516f7836eb7bb2948481a12",
+        "contents": "cb6a278ef2dbb298455e1a713bda08524a175630ec643a242c399c932a0a1f7d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "archive-4.0.5.sha256"
+        "dest-filename": "archive-3.6.1.sha256"
     },
     {
         "type": "archive",
@@ -912,16 +912,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/image-4.5.4.tar.gz",
-        "sha256": "4e973fcf4caae1a4be2fa0a13157aa38a8f9cb049db6529aa00b4d71abc4d928",
+        "url": "https://pub.dev/api/archives/image-4.3.0.tar.gz",
+        "sha256": "f31d52537dc417fdcde36088fdf11d191026fd5e4fae742491ebd40e5a8bea7d",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/image-4.5.4"
+        "dest": ".pub-cache/hosted/pub.dev/image-4.3.0"
     },
     {
         "type": "inline",
-        "contents": "4e973fcf4caae1a4be2fa0a13157aa38a8f9cb049db6529aa00b4d71abc4d928",
+        "contents": "f31d52537dc417fdcde36088fdf11d191026fd5e4fae742491ebd40e5a8bea7d",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "image-4.5.4.sha256"
+        "dest-filename": "image-4.3.0.sha256"
     },
     {
         "type": "archive",
@@ -978,6 +978,20 @@
         "contents": "1ce844379ca14835a50d2f019a3099f419082cfdd231cd86a142af94dd5c6bb1",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "json_annotation-4.9.0.sha256"
+    },
+    {
+        "type": "archive",
+        "archive-type": "tar-gzip",
+        "url": "https://pub.dev/api/archives/launch_at_startup-0.5.1.tar.gz",
+        "sha256": "7db33398b76ec0ed9e27f9f4640553e239977437564046625e215be89c91f084",
+        "strip-components": 0,
+        "dest": ".pub-cache/hosted/pub.dev/launch_at_startup-0.5.1"
+    },
+    {
+        "type": "inline",
+        "contents": "7db33398b76ec0ed9e27f9f4640553e239977437564046625e215be89c91f084",
+        "dest": ".pub-cache/hosted-hashes/pub.dev",
+        "dest-filename": "launch_at_startup-0.5.1.sha256"
     },
     {
         "type": "archive",
@@ -1412,20 +1426,6 @@
         "contents": "20fe868b6314b322ea036ba325e6fc0711a22948856475e2c2b6306e8ab39c2a",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "pool-1.5.1.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/posix-6.0.1.tar.gz",
-        "sha256": "a0117dc2167805aa9125b82eee515cc891819bac2f538c83646d355b16f58b9a",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/posix-6.0.1"
-    },
-    {
-        "type": "inline",
-        "contents": "a0117dc2167805aa9125b82eee515cc891819bac2f538c83646d355b16f58b9a",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "posix-6.0.1.sha256"
     },
     {
         "type": "archive",
@@ -2223,20 +2223,6 @@
         "contents": "192d1c5b944e7e53b24b5586db760db934b177d4147c42fbca8c8c5f1eb8d11e",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "analyzer-7.3.0.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/archive-3.6.1.tar.gz",
-        "sha256": "cb6a278ef2dbb298455e1a713bda08524a175630ec643a242c399c932a0a1f7d",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/archive-3.6.1"
-    },
-    {
-        "type": "inline",
-        "contents": "cb6a278ef2dbb298455e1a713bda08524a175630ec643a242c399c932a0a1f7d",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "archive-3.6.1.sha256"
     },
     {
         "type": "archive",
