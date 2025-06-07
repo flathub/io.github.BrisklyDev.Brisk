@@ -36,12 +36,13 @@ modules:
         aarch64:
           env:
             BUNDLE_PATH: build/linux/arm64/release/bundle
-      append-path: /usr/lib/sdk/llvm19/bin:/var/lib/flutter/bin
+      append-path: /usr/lib/sdk/llvm19/bin:/var/lib/rustup/bin:/var/lib/flutter/bin
       prepend-ld-library-path: /usr/lib/sdk/llvm19/lib
       env:
+        CARGO_HOME: /run/build/Brisk/cargo
+        RUSTUP_HOME: /var/lib/rustup
         PUB_CACHE: /run/build/Brisk/.pub-cache
     build-commands:
-      - setup-flutter.sh -C .
       - setup-flutter.sh -C .
       - flutter build linux --release
       - install -Dm644 .github/io.github.BrisklyDev.Brisk.appdata.xml /app/share/appdata/io.github.BrisklyDev.Brisk.appdata.xml
@@ -53,9 +54,13 @@ modules:
       - install -Dm644 linux/brisk.desktop /app/share/applications/io.github.BrisklyDev.Brisk.desktop
     sources:
       - pubspec-sources.json
+      - cargo-sources.json
       - type: git
         url: https://github.com/BrisklyDev/brisk.git
-        tag: v2.3.0
-        commit: 3f51d0ebe1bbde2bb494440c756a740977d3a331
+        tag: v2.3.1
+        commit: 94168435957488c52243cda68d2115b935335096
+      - type: patch
+        path: run_build_tool.sh.offline.patch
     modules:
       - flutter-sdk-3.32.0.json
+      - rustup-1.83.0.json
