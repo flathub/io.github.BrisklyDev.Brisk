@@ -534,16 +534,16 @@
     {
         "type": "archive",
         "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/file_picker-10.0.0.tar.gz",
-        "sha256": "36a1652d99cb6bf8ccc8b9f43aded1fd60b234d23ce78af422c07f950a436ef7",
+        "url": "https://pub.dev/api/archives/file_picker-10.1.9.tar.gz",
+        "sha256": "77f8e81d22d2a07d0dee2c62e1dda71dc1da73bf43bb2d45af09727406167964",
         "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/file_picker-10.0.0"
+        "dest": ".pub-cache/hosted/pub.dev/file_picker-10.1.9"
     },
     {
         "type": "inline",
-        "contents": "36a1652d99cb6bf8ccc8b9f43aded1fd60b234d23ce78af422c07f950a436ef7",
+        "contents": "77f8e81d22d2a07d0dee2c62e1dda71dc1da73bf43bb2d45af09727406167964",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "file_picker-10.0.0.sha256"
+        "dest-filename": "file_picker-10.1.9.sha256"
     },
     {
         "type": "archive",
@@ -1846,20 +1846,6 @@
         "contents": "62ee18aca144e4a9f29d212f5a4c6a053be252b895ab14b5821996cff4ed90fe",
         "dest": ".pub-cache/hosted-hashes/pub.dev",
         "dest-filename": "timing-1.0.2.sha256"
-    },
-    {
-        "type": "archive",
-        "archive-type": "tar-gzip",
-        "url": "https://pub.dev/api/archives/tray_manager-0.4.0.tar.gz",
-        "sha256": "c2da0f0f1ddb455e721cf68d05d1281fec75cf5df0a1d3cb67b6ca0bdfd5709d",
-        "strip-components": 0,
-        "dest": ".pub-cache/hosted/pub.dev/tray_manager-0.4.0"
-    },
-    {
-        "type": "inline",
-        "contents": "c2da0f0f1ddb455e721cf68d05d1281fec75cf5df0a1d3cb67b6ca0bdfd5709d",
-        "dest": ".pub-cache/hosted-hashes/pub.dev",
-        "dest-filename": "tray_manager-0.4.0.sha256"
     },
     {
         "type": "archive",
