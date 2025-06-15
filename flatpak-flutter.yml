@@ -52,7 +52,6 @@ modules:
   - install -Dm644 assets/icons/tray-active.png /app/share/icons/hicolor/128x128/apps/io.github.BrisklyDev.Brisk.trayActive.png
   - desktop-file-edit linux/brisk.desktop --set-icon=io.github.BrisklyDev.Brisk
   - install -Dm644 linux/brisk.desktop /app/share/applications/io.github.BrisklyDev.Brisk.desktop
-  
   sources:
   - type: git
     url: https://github.com/BrisklyDev/brisk.git
