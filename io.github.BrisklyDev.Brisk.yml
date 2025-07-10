@@ -63,9 +63,5 @@ modules:
         commit: e7f824880fdf36eb3bf49d76fb393b91078aeb53
       - type: patch
         path: run_build_tool.sh.offline.patch
-      - type: patch
-        path: cargokit/run_build_tool.sh.patch
-        dest: .pub-cache/hosted/pub.dev/rhttp-0.12.0/cargokit
-      - cargo-sources.json
     modules:
       - flutter-sdk-3.32.0.json
