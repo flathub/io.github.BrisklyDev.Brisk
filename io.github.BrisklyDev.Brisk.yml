@@ -65,3 +65,4 @@ modules:
         path: run_build_tool.sh.offline.patch
     modules:
       - flutter-sdk-3.32.0.json
+      - rustup-1.83.0.json
