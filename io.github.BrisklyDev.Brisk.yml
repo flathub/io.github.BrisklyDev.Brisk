@@ -57,6 +57,7 @@ modules:
       - install -Dm644 linux/brisk.desktop /app/share/applications/io.github.BrisklyDev.Brisk.desktop
     sources:
       - pubspec-sources.json
+      - cargo-sources.json
       - type: git
         url: https://github.com/BrisklyDev/brisk.git
         tag: v2.3.5
