@@ -57,13 +57,15 @@ modules:
       - install -Dm644 linux/brisk.desktop /app/share/applications/io.github.BrisklyDev.Brisk.desktop
     sources:
       - pubspec-sources.json
-      - cargo-sources.json
       - type: git
         url: https://github.com/BrisklyDev/brisk.git
-        tag: v2.3.4
-        commit: bba59f72dd22c3bd155ac2d2a5de43642f5313ed
+        tag: v2.3.5
+        commit: e7f824880fdf36eb3bf49d76fb393b91078aeb53
       - type: patch
         path: run_build_tool.sh.offline.patch
+      - type: patch
+        path: cargokit/run_build_tool.sh.patch
+        dest: .pub-cache/hosted/pub.dev/rhttp-0.12.0/cargokit
+      - cargo-sources.json
     modules:
       - flutter-sdk-3.32.0.json
-      - rustup-1.83.0.json
