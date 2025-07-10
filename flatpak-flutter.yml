@@ -55,8 +55,8 @@ modules:
   sources:
   - type: git
     url: https://github.com/BrisklyDev/brisk.git
-    tag: v2.3.2
-    commit: 76bed7379298b68c953acf4786582553e7357aa8
+    tag: v2.3.5
+    commit: e7f824880fdf36eb3bf49d76fb393b91078aeb53
   - type: git
     url: https://github.com/flutter/flutter.git
     tag: 3.32.0
