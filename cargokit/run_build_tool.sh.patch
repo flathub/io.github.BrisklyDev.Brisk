@@ -1,7 +1,7 @@
-diff --git a/.pub-cache/hosted/pub.dev/rhttp-0.12.0/cargokit/run_build_tool.sh b/.pub-cache/hosted/pub.dev/rhttp-0.12.0/cargokit/run_build_tool.sh
+diff --git a/run_build_tool.sh b/run_build_tool.sh
 index 0e2c973..200b520 100755
---- a/.pub-cache/hosted/pub.dev/rhttp-0.12.0/cargokit/run_build_tool.sh
-+++ b/.pub-cache/hosted/pub.dev/rhttp-0.12.0/cargokit/run_build_tool.sh
+--- a/run_build_tool.sh
++++ b/run_build_tool.sh
 @@ -66,7 +66,7 @@ fi
 
  # Run pub get if needed.
