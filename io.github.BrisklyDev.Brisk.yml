@@ -64,7 +64,6 @@ modules:
         commit: f18a6cbe84d208b383c216e7b247e7a5d908fe15
       - type: patch
         path: run_build_tool.sh.offline.patch
-      - cargo-sources.json
     modules:
       - flutter-sdk-3.32.0.json
       - rustup-1.83.0.json
