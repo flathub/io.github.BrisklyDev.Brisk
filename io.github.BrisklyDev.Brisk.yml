@@ -61,7 +61,7 @@ modules:
       - type: git
         url: https://github.com/BrisklyDev/brisk.git
         tag: v2.3.8.flathub.fix
-        commit: 70b504fef58707282679f7a5a02fe58f839cc809
+        commit: aeadd8e637a9c45dfd79209efdda222afccca75c
       - type: patch
         path: run_build_tool.sh.offline.patch
     modules:
