@@ -60,8 +60,8 @@ modules:
       - cargo-sources.json
       - type: git
         url: https://github.com/BrisklyDev/brisk.git
-        tag: v2.3.8
-        commit: e39e865e23aec365f2b1d30ef677eaa2488930c8
+        tag: v2.3.8.flathub
+        commit: 947870149e4693d3ca4506e5b76c135b1e4a4e6d
       - type: patch
         path: run_build_tool.sh.offline.patch
     modules:
