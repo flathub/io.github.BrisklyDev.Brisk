@@ -2,7 +2,7 @@
 # Visit the flatpak-flutter project at https://github.com/TheAppgineer/flatpak-flutter
 id: io.github.BrisklyDev.Brisk
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.llvm19
