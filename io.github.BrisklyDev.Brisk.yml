@@ -60,10 +60,10 @@ modules:
       - cargo-sources.json
       - type: git
         url: https://github.com/BrisklyDev/brisk.git
-        tag: v2.3.8.flathub.fix
-        commit: aeadd8e637a9c45dfd79209efdda222afccca75c
+        tag: v2.3.9
+        commit: 517c669953f2e7f261aec45a96b0611d541313fe
       - type: patch
         path: run_build_tool.sh.offline.patch
     modules:
-      - flutter-sdk-3.32.0.json
+      - flutter-sdk-3.38.3.json
       - rustup-1.83.0.json
