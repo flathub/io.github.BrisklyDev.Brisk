@@ -67,7 +67,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/BrisklyDev/brisk.git
-        tag: v2.5.0
-        commit: 17b43cc1f62e670dcd14e0dfc1820dda8685bec4
+        tag: v2.5.0.flatpak
+        commit: 5e373edc1306cbe8d69403bcd649d21b87229ae0
       - generated/sources/cargo.json
       - generated/sources/pubspec.json
