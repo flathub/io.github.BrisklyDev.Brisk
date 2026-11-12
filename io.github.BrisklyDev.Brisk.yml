@@ -67,7 +67,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/BrisklyDev/brisk.git
-        tag: v2.5.0.flatpak
-        commit: 5e373edc1306cbe8d69403bcd649d21b87229ae0
+        tag: 2.5.0.flatpak-hotfix
+        commit: 402a4f7a07742f0dacc4123cb4955a267a66aa3d
       - generated/sources/cargo.json
       - generated/sources/pubspec.json
